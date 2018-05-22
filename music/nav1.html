@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/nav1.css"/>
+	</head>
+	<body>		
+		<div class="nav1">
+			<div class="nav1_box">
+				<div class="nav1_logo">					
+				</div>
+				<ul class="nav1_list">
+					<li>发现音乐</li>
+					<li>我的音乐</li>
+					<li>朋友</li>
+					<li>商城</li>
+					<li>音乐人</li>
+					<li>下载客户端
+						<div class="hot">							
+						</div>
+					</li>
+				</ul>
+				<div class="nav1_search">
+					<input type="text" id="search_text"/>
+					<label id="search_label">音乐/视频/电台/用户</label>
+					
+				</div>
+				<div class="nav1_video">
+					视频投稿
+				</div>
+				<div class="nav1_login">
+					<a class="login_text">
+						登录
+					</a>
+					<div class="nav1_login_pic">						
+					</div>
+					<ul class="login_list" style="z-index: 9999;">
+						<li>
+							<div  class="list_logo1"></div>
+							手机号登录
+						</li>
+						<li>
+							<div  class="list_logo1 list_logo2"></div>
+							微信登录
+						</li>
+						<li>
+							<div  class="list_logo1 list_logo3"></div>
+							QQ登录
+						</li>
+						<li>
+							<div  class="list_logo1 list_logo4"></div>
+							新浪微博登录
+						</li>
+						<li style="border-bottom:none;">
+							<div  class="list_logo1 list_logo5"></div>
+							网易账号邮箱登录
+						</li>
+						<div class="top">
+							
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+			window.onload=function(){
+				var label=document.getElementById("search_label");
+				label.onclick=function(){
+//					label.innerHTML=" "
+				label.style.display="none"
+				}
+			}
+		</script>
+	</body>
+</html>
