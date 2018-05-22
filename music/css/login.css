@@ -1,0 +1,243 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	border: none;
+	outline: none;
+	font-size: 14px;
+}
+.main{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 0;
+}
+.main video{
+	width: 100%;
+	height: 100%;	
+}
+.video_inside{
+	width: 100%;
+	height: 850px;
+	background: #000000;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0.6;
+	z-index: 1;	
+} 
+.content{
+	width: 100%;
+	height:326px;
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+}
+.content_inside{
+	position: relative;
+}
+.content_box{
+	width: 530px;
+	height:326px;
+	margin: 200px auto;
+	background: white;
+	border-radius: 4px;
+    box-shadow: 0 5px 16px rgba(0,0,0,0.8);
+    border: none;
+    position: absolute;
+    top: 0px;
+    left: 494px;
+ /*   position: relative;*/
+}
+.content_box2{
+	width: 530px;
+	height:326px;
+	margin: 200px auto;
+	background: white;
+	border-radius: 4px;
+    box-shadow: 0 5px 16px rgba(0,0,0,0.8);
+    border: none;
+    position: absolute;
+    top: 0px;
+    left: 494px;
+    z-index: 100;    
+}
+.login_title{
+	width: 530px;
+	border-bottom: 1px solid #191919;
+    border-radius: 4px 4px 0 0;
+    background: #2d2d2d;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 45px;
+    height: 39px;
+    line-height: 38px;
+    padding-left: 18px;
+    box-sizing: border-box;
+    cursor:all-scroll;
+}
+.login_inside{
+	padding: 40px 0 39px;
+}
+.login_left{
+	float: left;
+    width: 224px;
+    height: 205px;
+    padding: 0 35px 3px 40px;
+    border-right: 1px dotted #ccc;
+}
+.login_number{
+	margin-top: 10px;
+	width: 206px;
+	height: 31px;
+	border-radius:0 4px 4px 0 ;
+	background: url(../img/login/button2.png)no-repeat 0 -387px;
+	text-align: center;
+	line-height: 31px;
+	cursor: pointer;
+	color: #fff;
+	font-size: 12px;
+}
+.login_number:hover{
+	background-position: 0px -470px;
+}
+.login_number2{
+	color: #333;
+	border-right:1px solid #E5E5E5;
+	background-position: 0px -223px;
+}
+.login_number2:hover{
+	background-position: 0px -141px;
+}
+.login_right{
+	float: left;
+    padding: 3px 0 3px 39px;
+    margin-top: -15px;
+    
+    width: 187px;
+    height: 222px;
+}
+.login_ul{
+	width: 148px;
+	height: 201px;
+	
+}
+.login_ul li{
+	margin-top: 15px;
+	width: 158px;
+	height: 39px;
+}
+.login_logo{
+	width: 39px;
+	height: 39px;
+	background: url(../img/login/logo.png)no-repeat -150px -670px;
+	float: left;
+	cursor: pointer;
+}
+.login_logo2{
+	background-position: -190px -670px;
+}
+.login_logo3{
+	background-position: -230px -670px;
+}
+.login_logo4{
+	background-position: -270px -670px;
+}
+.login_text{
+	margin-left: 16px;
+	height: 40px;
+	line-height: 40px;
+	color: #333;
+	font-size: 12px;
+	float: left;
+	cursor: pointer;
+}
+.login_text:hover{
+	text-decoration: underline;
+}
+
+.content_box2_inside{
+	padding: 30px 0 43px;
+    width: 220px;
+    height: 150px;
+    margin: 0 auto;
+}
+.phone_number{
+	height: 30px;
+    margin: 0;
+    border: 1px solid #cdcdcd;
+    border-radius: 2px;
+}
+.phone_text{
+	margin-left: 20px;
+	font-size: 12px;
+	height:29px;
+	line-height: 29px;
+}
+.check{
+	height: 40px;
+	margin-top: 14px;
+	font-size: 12px;
+}
+.login_free{
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	margin-left: 14px;
+	font-size: 12px;
+	color: #333;
+	cursor: pointer;
+}
+.phone_check{
+	margin-top: 4px;	
+	float: left;
+}
+.forget{
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	color: #333;
+	float: right;
+	cursor: pointer;
+}
+.forget:hover{
+	text-decoration: underline;
+}
+.phone_bottom{
+	margin-top: 10px;
+	width: 220px;
+	height: 31px;
+	border-radius:0 4px 4px 0 ;
+	background: url(../img/login/button2.png)no-repeat 0 -387px;
+	text-align: center;
+	line-height: 31px;
+	cursor: pointer;
+	color: #fff;
+	font-size: 12px;
+}
+.phone_bottom:hover{
+	background-position: 0px -470px;
+}
+.login_bottom{
+	padding: 0 19px;
+    height:59px;
+    border-top: 1px solid #c6c6c6;
+    border-radius: 0 0 4px 4px;
+    line-height: 59px;
+    background-color: #f7f7f7;
+}
+.other_login{
+	width: 85px;
+	color: #0c72c3;
+	font-size: 12px;
+	cursor: pointer;
+	float: left;
+}
+.more_login{
+	width: 130px;
+	font-size: 12px;
+	color: #999;
+	cursor: pointer;
+	float: right;
+}

@@ -1,0 +1,42 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	border: none;
+	outline: none;
+	font-size: 14px;
+}
+.nav2{
+    height: 35px;
+    box-sizing: border-box;
+    background-color: #C20C0C;
+    border-bottom: 1px solid #a40011;
+}
+.nav2_box{
+	width: 1100px;
+	height: 34px;
+	margin: 0 auto;
+}
+.nav2_list{
+	float: left;
+	padding-left: 180px;
+}
+.nav2_list li{
+	height: 21px;
+	float: left;
+	cursor: pointer;
+    padding: 0 13px;
+    margin: 7px 17px 0;
+    border-radius: 20px;
+    line-height: 21px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+.nav2_list li:hover{
+	background: #9B0909;
+}
+
+
+
+

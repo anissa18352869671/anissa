@@ -1,0 +1,225 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	border: none;
+	outline: none;
+	font-size: 14px;
+	
+	
+}
+.nav1{
+    z-index: 1000;
+    height: 70px;
+    box-sizing: border-box;
+    background: #242424;
+    border-bottom: 1px solid #000;
+}
+#search_input{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: red;
+	z-index: 9999;
+	top: 32px;
+	left: 0px;
+	border-radius:4px ;
+	color: white;
+}
+.nav1_box{
+	width: 1100px;
+    margin: 0 auto;
+    height: 70px;    
+}
+.nav1_logo{
+	width: 176px;
+	height: 28px;
+	/*border: 1px solid green;*/
+	float: left;
+	margin-top: 21px;
+	background: url(../img/nav/topbar.png)no-repeat 0 -22px;
+}
+.nav1_list{
+	float: left;
+	width: 508px;
+	height: 70px;
+	font-size: 14px;
+	text-align: center;
+    line-height: 70px;
+    color: #ccc; 
+    position: relative;   
+    /*background: green;*/
+}
+.nav1_choose{
+	position: absolute;
+	background: url(../img/nav/topbar.png)no-repeat -225px 0px;
+	width: 20px;
+	height: 6px;
+	z-index: 9000;
+	bottom: 0px;
+	left: 40px;
+}
+.nav1_list li{
+	float: left;
+	cursor: pointer;
+	padding-left:19px ;
+	padding-right: 19px;
+	box-sizing: border-box;
+	position: relative;
+}
+.nav1_list li:hover{
+	background: #000;
+	color: white;
+}
+.hot{
+	position: absolute;
+	top: 20px;
+	left: 100px;
+    width: 28px;
+    height: 19px;
+    background: url(../img/nav/topbar.png)no-repeat -190px 0;
+}
+.nav1_search{
+	width: 158px;
+	height: 32px;
+	background: green;
+	float: left;
+	margin-left: 84px;
+	margin-top: 19px;
+    background: url(../img/nav/topbar.png)no-repeat 0px -99px;
+    background-color: #fff;
+    border-radius: 32px;
+    padding-left: 30px ;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 12px;
+}
+
+#search_text{
+	width: 120px;
+	margin-top: 9px;
+	font-size: 12px;
+}
+#search_label_me{
+	position: absolute;
+	top: 8px;
+	left: 30px;
+	cursor: text;
+	color:#9b9b9b;
+	display: block;
+	font-size: 12px;
+}
+.nav1_video{
+	width: 90px;
+	height: 32px;
+	float: left;
+    margin: 19px 0 0 12px;
+    box-sizing: border-box;
+    padding-left: 32px;
+    line-height: 33px;
+    color: #ccc;
+    background: url(../img/nav/topbar.png)no-repeat 0 -140px;
+    font-size: 12px;
+    cursor: pointer;
+ 
+}
+.nav1_video:hover{
+	background-position: -100px -140px;
+	color: white;
+}
+.nav1_login{
+	width: 50px;
+	height: 45px;
+	float: left;
+	color: #787878;
+    margin: 26px 0 0 20px;
+    font-size: 12px;
+    float: left;
+    /*padding: 0 22px 0 0;*/
+    background-position: right -47px;    
+    position: relative;
+    z-index: 9999;
+}
+.nav1_login div{
+	float: left;
+	font-size: 12px;
+	
+}
+.nav1_login_pic{
+	margin-left:36px ;
+	margin-top:-10px ;
+	width: 20px;
+	height: 10px;
+	background:url(../img/nav/topbar.png)no-repeat -227px -59px;
+	
+}
+.login_list{
+	position: absolute;
+	top: 30px;
+	left: -63px;
+	/*border: 1px solid black;  */
+	width: 160px;
+	background: #2A2A2A;
+	border-radius: 5px;
+	display: none;
+	z-index: 9999;
+	}
+.login_list li{
+	width: 160px;
+	height: 38px;
+	border-bottom: 1px solid #232323;
+	padding: 10px 0px 10px 18px;
+	box-sizing: border-box;
+	font-size: 12px;
+	color: #ccc;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.list_logo1{
+	margin-right: 6px;
+	width: 20px;
+	height: 20px;
+	background: url(../img/nav/toplist.png)no-repeat;
+}
+.list_logo2{
+	background-position: -20px -21px;
+}
+.list_logo3{
+	background-position: -20px -40px;
+}
+.list_logo4{
+	background-position: 0px -21px;
+}
+.list_logo5{
+	background-position: 0px -40px;
+}
+.login_list li:hover{
+	background: #353535;
+	color: white;
+	
+}  
+.top{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: -10px;
+	left: 70px;
+	background:url(../img/nav/toplist.png)no-repeat -22px 0px ;
+	
+}
+.login_text{
+	font-size: 12px;
+	cursor: pointer;
+}
+.nav1_login:hover .login_list{
+	display: block;
+	z-index: 9999;
+}
+.nav1_login:hover .login_text{
+	color: #999;
+}
+.login_text:hover {
+	text-decoration: underline;
+	color: #787878;
+	display: block;
+}
