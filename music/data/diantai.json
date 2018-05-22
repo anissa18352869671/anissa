@@ -1,0 +1,191 @@
+{
+	"types": [
+		{
+			"tpimg": "url(img/diantai/book.jpg)",
+			"tptxt": "有声书"
+		}, {
+			"tpimg": "url(img/diantai/zhishi.jpg)",
+			"tptxt": "知识技能"
+		}, {
+			"tpimg": "url(img/diantai/shangye.jpg)",
+			"tptxt": "商业财经"
+		}, {
+			"tpimg": "url(img/diantai/renwen.jpg",
+			"tptxt": "人文历史"
+		}, {
+			"tpimg": "url(img/diantai/waiyu.jpg",
+			"tptxt": "外语世界"
+		}, {
+			"tpimg": "url(img/diantai/qinzi.jpg",
+			"tptxt": "亲子宝贝"
+		}, {
+			"tpimg": "url(img/diantai/chuangzuo.jpg",
+			"tptxt": "创作|翻唱"
+		}, {
+			"tpimg": "url(img/diantai/yinyue.jpg",
+			"tptxt": "音乐故事"
+		}, {
+			"tpimg": "url(img/diantai/dianzi.jpg",
+			"tptxt": "3D|电子"
+		}, {
+			"tpimg": "url(img/diantai/xiangsheng.jpg",
+			"tptxt": "相声曲艺"
+		}, {
+			"tpimg": "url(img/diantai/qinggan.jpg",
+			"tptxt": "情感调频"
+		}, {
+			"tpimg": "url(img/diantai/meiwen.jpg",
+			"tptxt": "美文读物"
+		}, {
+			"tpimg": "url(img/diantai/tuo.jpg",
+			"tptxt": "脱口秀"
+		}, {
+			"tpimg": "url(img/diantai/guangboju.jpg",
+			"tptxt": "广播剧"
+		}, {
+			"tpimg": "url(img/diantai/erciyuan.jpg",
+			"tptxt": "二次元"
+		}, {
+			"tpimg": "url(img/diantai/mingxing.jpg",
+			"tptxt": "明星做主播"
+		}, {
+			"tpimg": "url(img/diantai/yule.jpg",
+			"tptxt": "娱乐|影视"
+		}, {
+			"tpimg": "url(img/diantai/keji.jpg",
+			"tptxt": "科技科学"
+		}, {
+			"tpimg": "url(img/diantai/xiaoyuan.jpg",
+			"tptxt": "校园|教育"
+		}, {
+			"tpimg": "url(img/diantai/lvtu.jpg",
+			"tptxt": "旅途|城市"
+		}, {
+			"tpimg": "url(img/diantai/radio_faq.png",
+			"tptxt": "常见问题"
+		}, {
+			"tpimg": "url(img/diantai/radio_apply.png",
+			"tptxt": "我要做主播"
+		}
+	],
+
+	"diantai": [
+		{
+			"diantaiimg": "img/diantai/linfei.jpg",
+			"title": "林非的唱片私藏馆",
+			"note": "DJ林非跟你分享他的两万张老唱片"
+		}, {
+			"diantaiimg": "img/diantai/wenqian.jpg",
+			"title": "文茜的异想世界",
+			"note": "娓娓道来的音乐故事"
+		}, {
+			"diantaiimg": "img/diantai/yanqiu.jpg",
+			"title": "艳秋电台",
+			"note": "这个治愈的声音得听"
+		}, {
+			"diantaiimg": "img/diantai/yuanyuan.jpg",
+			"title": "园园蓝调口琴电台",
+			"note": "搜罗所有蓝调口琴音乐"
+		}, {
+			"diantaiimg": "img/diantai/tengge.jpg",
+			"title": "疼哥深夜电台",
+			"note": "读有趣的书，做有点儿酷的人"
+		}, {
+			"diantaiimg": "img/diantai/bianjiang.jpg",
+			"title": "边江de恋声馆",
+			"note": "配音演员边江静静地读给你听"
+		}, {
+			"diantaiimg": "img/diantai/mengjinghui.jpg",
+			"title": "孟京辉戏剧工作室 | 为你读诗",
+			"note": "听孟京辉戏剧工作室为你读诗"
+		}, {
+			"diantaiimg": "img/diantai/yiting.jpg",
+			"title": "一听散文",
+			"note": "听经典散文，分享品读之乐"
+		}, {
+			"diantaiimg": "img/diantai/nanji.jpg",
+			"title": "南极电台",
+			"note": "你身边最懂吃喝的好朋友"
+		}, {
+			"diantaiimg": "img/diantai/women.jpg",
+			"title": "我们的生活-尝试做更好的自己",
+			"note": "和大波一起聊生活"
+		}, {
+			"diantaiimg": "img/diantai/beijing.jpg",
+			"title": "北京金山上",
+			"note": "一档幽默松散的谈话栏目"
+		}, {
+			"diantaiimg": "img/diantai/shiguang.jpg",
+			"title": "時光裡的他和他",
+			"note": "那些埋在时光里的故事"
+		}, {
+			"diantaiimg": "img/diantai/muyou.jpg",
+			"title": "慕游说",
+			"note": "用声音治愈你和世界"
+		}, {
+			"diantaiimg": "img/diantai/sanzang.jpg",
+			"title": "SANzang三藏说",
+			"note": "有故事的三藏，有温度的声音"
+		}, {
+			"diantaiimg": "img/diantai/lianai.jpg",
+			"title": "恋爱成长电台",
+			"note": "用平凡的故事温暖特别的你"
+		}, {
+			"diantaiimg": "img/diantai/peini.jpg",
+			"title": "陪你·说一世晚安",
+			"note": "每晚一个睡前暖心故事"
+		}, {
+			"diantaiimg": "img/diantai/jingpeiyao.jpg",
+			"title": "靖佩瑶",
+			"note": "偶像练习生靖佩瑶的翻唱电台"
+		}, {
+			"diantaiimg": "img/diantai/yueyu.jpg",
+			"title": "粤语呼吸版翻唱",
+			"note": "细腻女声的粤语翻唱"
+		}, {
+			"diantaiimg": "img/diantai/dasheng.jpg",
+			"title": "Semon大圣音乐集",
+			"note": "最帅女主播，攻嗓唱情歌"
+		}, {
+			"diantaiimg": "img/diantai/mali.jpg",
+			"title": "你的金色头发玛格丽特",
+			"note": "弹唱很棒，有音乐个性。"
+		}, {
+			"diantaiimg": "img/diantai/datang.jpg",
+			"title": "大唐雷音寺",
+			"note": "老梁为你聊遍古今"
+		}, {
+			"diantaiimg": "img/diantai/weilu.jpg",
+			"title": "围炉夜话",
+			"note": "美食家陈立带你品美食、说历史"
+		}, {
+			"diantaiimg": "img/diantai/sunzhongxing.jpg",
+			"title": "孙中兴",
+			"note": "台大社会学名师的爱情社会学"
+		}, {
+			"diantaiimg": "img/diantai/shuchang.jpg",
+			"title": "泪痕书场",
+			"note": "聊一聊古今中外人生百态"
+		}
+	],
+	"Music":[
+		{"id":1,
+			"song_name":"out of sight",
+			"singer":"James Brown",
+			"pic":"img/login/1.jpg"
+		},
+		{"id":2,
+			"song_name":"理想",
+			"singer":"赵雷",
+			"pic":"img/login/2.jpg"
+		},
+		{"id":3,
+			"song_name":"情人",
+			"singer":"谢安琪",
+			"pic":"img/login/3.jpg"
+		}
+	]
+}
+
+
+

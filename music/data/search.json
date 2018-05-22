@@ -1,0 +1,106 @@
+{
+	"songInfo": [
+		{
+			"songname": "让我留在你身边",
+			"songer": "陈奕迅",
+			"tv":" - (电影《摆渡人》爱情版主题曲)",
+			"cd": "《让我留在你身边》",
+			"time":"03:24"
+		}, {
+			"songname": "陪你度过漫长岁月",
+			"songer": "陈奕迅",
+			"tv":" - (电影《陪安东尼度过漫长岁月》主题曲)",
+			"cd": "《陪你度过漫长岁月》",
+			"time":"04:02"
+		}, {
+			"songname": "无条件",
+			"songer": "陈奕迅",
+			"tv":"",
+			"cd": "《准备中》",
+			"time":"03:48"
+		}, {
+			"songname": "青梅铁马",
+			"songer": "陈奕",
+			"tv":"",
+			"cd": "《奕想天开》",
+			"time":"03:27"
+		}, {
+			"songname": "童话镇",
+			"songer": "陈一发儿",
+			"tv":"",
+			"cd": "《童话镇》",
+			"time":"04:17"
+		}, {
+			"songname": "不要说话",
+			"songer": "陈奕迅",
+			"tv":"",
+			"cd": "《不想放手》",
+			"time":"04:45"
+		}, {
+			"songname": "爱她 - TV Version",
+			"songer": "陈奕/沈建宏",
+			"tv":" - (网络剧《涩世纪传说》片尾曲)",
+			"cd": "《热门华语271》",
+			"time":"03:56"
+		}, {
+			"songname": "何家小鸡？何家？猜！",
+			"songer": "陈奕/郑柏林",
+			"tv":"",
+			"cd": "《儿歌新天地》",
+			"time":"03:04"
+		}, {
+			"songname": "淘汰",
+			"songer": "陈奕迅",
+			"tv":"",
+			"cd": "《认了吧》",
+			"time":"04:45"
+		}, {
+			"songname": "阴天快乐",
+			"songer": "陈奕迅",
+			"tv":"",
+			"cd": "《rice & shine》",
+			"time":"04:20"
+		}, {
+			"songname": "好久不见",
+			"songer": "陈奕迅",
+			"tv":"",
+			"cd": "《认了吧》",
+			"time":"04:10"
+		}, {
+			"songname": "红玫瑰",
+			"songer": "陈奕迅",
+			"tv":"",
+			"cd": "《认了吧》",
+			"time":"03:59"
+		}, {
+			"songname": "富士山下",
+			"songer": "陈奕迅",
+			"tv":"",
+			"cd": "《What's Going On…?》",
+			"time":"04:19"
+		}, {
+			"songname": "需要爱",
+			"songer": "陈奕",
+			"tv":"",
+			"cd": "《奕想天开》",
+			"time":"04:38"
+		}
+	],
+	"Music":[
+		{"id":1,
+			"song_name":"out of sight",
+			"singer":"James Brown",
+			"pic":"img/login/1.jpg"
+		},
+		{"id":2,
+			"song_name":"理想",
+			"singer":"赵雷",
+			"pic":"img/login/2.jpg"
+		},
+		{"id":3,
+			"song_name":"情人",
+			"singer":"谢安琪",
+			"pic":"img/login/3.jpg"
+		}
+	]
+}
