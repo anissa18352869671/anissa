@@ -1,0 +1,152 @@
+{
+	"Banners": [
+		{
+			"banner_bg": "url(img/home/banner_bg1.jpg)",
+			"banner": "url(img/home/banner1.jpg)"
+		},
+		{
+			"banner_bg": "url(img/home/banner_bg2.jpg)",
+			"banner": "url(img/home/banner2.jpg)"
+		}, {
+			"banner_bg": "url(img/home/banner_bg3.jpg)",
+			"banner": "url(img/home/banner3.jpg)"
+		}, {
+			"banner_bg": "url(img/home/banner_bg4.jpg)",
+			"banner": "url(img/home/banner4.jpg)"
+		},
+		{
+			"banner_bg": "url(img/home/banner_bg5.jpg)",
+			"banner": "url(img/home/banner5.jpg)"
+		}, {
+			"banner_bg": "url(img/home/banner_bg6.jpg)",
+			"banner": "url(img/home/banner6.jpg)"
+		}
+	],
+	"Introduce": [
+		{
+			"img": "url(img/home/introduce1.jpg)",
+			"text": "就让这些歌 替我打通想念你的电话吧",
+			"number":"71万"
+		},
+		{
+			"img": "url(img/home/introduce2.jpg)",
+			"text": "失眠的朋友圈 | 从未有打烊的念头",
+			"number":"13万"
+		}, {
+			"img": "url(img/home/introduce3.jpg)",
+			"text": "在你之后来过的每个人，我都不敢报太多期望",
+			"number":"18万"
+		}, {
+			"img": "url(img/home/introduce4.jpg)",
+			"text": "红玫瑰 - 一句“我陪你”胜过千言万语",
+			"number":"10024"
+		},
+		{
+			"img": "url(img/home/introduce5.jpg)",
+			"text": "张靓颖：你是我一首唱不完的歌",
+			"number":"21万"
+		}, {
+			"img": "url(img/home/introduce6.jpg)",
+			"text": "【国漫推荐】听说，你也在妖怪名单上？（vol.162）",
+			"number":"1783"
+		},
+		{
+			"img": "url(img/home/introduce7.jpg)",
+			"text": "华语说唱里面的“亲情”元素",
+			"number":"27万"
+		}, {
+			"img": "url(img/home/introduce8.jpg)",
+			"text": "【环绕音乐】Can't Stop The Feeling (SAXITY Remix)",
+			"number":"1069万"
+		}
+	],
+	"News": [
+		{	"id":1,
+			"bang1": "海草舞",
+			"bang2": "慢慢喜欢你",
+			"bang3":"花开"
+		},
+		{	"id":2,
+			"bang1": "佛系少女",
+			"bang2": "最美的期待",
+			"bang3":"如常"
+		}, {"id":3,
+			"bang1": "关于春天的一切",
+			"bang2": "Firewalking (Live)",
+			"bang3":"爱过"
+		}, {"id":4,
+			"bang1": "慢慢喜欢你",
+			"bang2": "BINGBIAN病变",
+			"bang3":"一千零一夜"
+		},
+		{"id":5,
+			"bang1": "Lemon",
+			"bang2": "我永远记得 (Live)",
+			"bang3":"如约"
+		},
+		{"id":6,
+			"bang1": "遗失的朋友",
+			"bang2": "DREAM (Live)",
+			"bang3":"喜欢的是"
+		},
+		{"id":7,
+			"bang1": "123我爱你",
+			"bang2": "听听我说的吧 ",
+			"bang3":"关于你"
+		}, {"id":8,
+			"bang1": "FRIENDS",
+			"bang2": "Lemon",
+			"bang3":"爱我"
+		}, {"id":9,
+			"bang1": "略略略",
+			"bang2": "拥抱",
+			"bang3":"MYND"
+		},
+		{"id":10,
+			"bang1": "繁华之处",
+			"bang2": "海草舞",
+			"bang3":"对不起没关系"
+		}
+	],
+	"Music":[
+		{"id":1,
+			"song_name":"out of sight",
+			"singer":"James Brown",
+			"pic":"img/login/1.jpg"
+		},
+		{"id":2,
+			"song_name":"理想",
+			"singer":"赵雷",
+			"pic":"img/login/2.jpg"
+		},
+		{"id":3,
+			"song_name":"情人",
+			"singer":"谢安琪",
+			"pic":"img/login/3.jpg"
+			
+		}
+	],
+	   
+	
+	"userList":[
+		{
+		"name":"18352869671",
+		"password":"1234",
+		"ppp":"Anissa",
+		"words":"我喜欢的，是宇宙里最特别的那颗星，是只被我看见的那部分天真。"
+	},
+	{
+		"name":"18352869672",
+		"password":"1234",
+		"ppp":"Anne",
+		"words":"我要用一生学这首歌去唱给她听，问她愿意陪我吗？她说，她会陪我一起学"
+	},
+	{
+		"name":"18352869673",
+		"password":"1234",
+		"ppp":"Andy",
+		"words":"最怕一生碌碌无为，还说平凡难能可贵。"
+	}
+	]
+
+}

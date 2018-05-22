@@ -1,0 +1,220 @@
+
+{
+	"list":[
+	    {
+			"img": "url(img/picture/pic1.jpg)",			
+			"test": "繁华闹市有他孤独的...",
+			"num":"43126",
+			"auther":"by 傻傻傻傻傻了"
+		},{
+			"img": "url(img/picture/pic2.jpg)",			
+			"test": "春风熏暖红琴绿意...",
+			"num":"17584",
+			"auther":"by 薄荷猫晒太阳"
+		},{
+			"img":"url(img/picture/pic3.jpg)" ,			
+			"test": "日语精选：日本ktv...",
+			"num":"5941",
+			"auther":"by 田音结诩"
+		},{
+			"img": "url(img/picture/pic4.jpg) ",			
+			"test": "华语请停下脚步...",
+			"num":"7991",
+			"auther":"by 难忘你-好听过若..."
+		},{
+			"img": "url(img/picture/pic5.jpg)  ",			
+			"test": "霸气的德语也有温柔..",
+			"num":"3887",
+			"auther":"by 在德语海洋中挣扎..."
+		},{
+			"img": "url(img/picture/pic6.jpg)  ",			
+			"test": "我爱你第一句是假的..",
+			"num":"3887",
+			"auther":"by 名侦探柯北..."
+		},{
+			"img": "url(img/picture/pic7.jpg)  ",			
+			"test": "EDCCHINA2018..",
+			"num":"3887",
+			"auther":"by ElectricDaisy"
+		},{
+			"img": "url(img/picture/pic8.jpg)  ",			
+			"test": "/Ultra Miami 2018/",
+			"num":"6790",
+			"auther":"我会的姿势很多"
+		},{
+			"img": "url(img/picture/pic9.jpg)  ",			
+			"test": "2018公告牌全球...",
+			"num":"19万",
+			"auther":"welphenEDM9"
+		},{
+			"img": "url(img/picture/pic10.jpg)  ",			
+			"test": "『绝美鼓乐集｜華枝...",
+			"num":"34万",
+			"auther":"魔理沙的扫帚视角"
+		},{
+			"img": "url(img/picture/pic11.jpg)  ",			
+			"test": "『民谣盛宴｜细数那...",
+			"num":"108万",
+			"auther":"鹿百川"
+		},{
+			"img": "url(img/picture/pic12.jpg)  ",			
+			"test": "『华语｜把回忆藏在...",
+			"num":"1226万",
+			"auther":"Romantic"
+		},{
+			"img": "url(img/picture/pic13.jpg)  ",			
+			"test": "节奏带感...",
+			"num":"568万",
+			"auther":"七戴月"
+		},{
+			"img": "url(img/picture/pic14.jpg)  ",			
+			"test": "『绝美鼓乐集｜華枝...",
+			"num":"34万",
+			"auther":"魔理沙的扫帚视角"
+		},{
+			"img": "url(img/picture/pic15.jpg)  ",			
+			"test": "岁月如潮...",
+			"num":"755万",
+			"auther":"丑萌的猫"
+		},{
+			"img": "url(img/picture/pic16.jpg)  ",			
+			"test": "歌词唱透了心...",
+			"num":"562万",
+			"auther":"清尘"
+		},{
+			"img": "url(img/picture/pic17.jpg)  ",			
+			"test": "台湾偶像剧...",
+			"num":"423万",
+			"auther":"可尼晏"
+		},{
+			"img": "url(img/picture/pic18.jpg)  ",			
+			"test": "GMM GRAMMY热门...",
+			"num":"11万",
+			"auther":"我是只烤全羊"
+		},{
+			"img": "url(img/picture/pic19.jpg)  ",			
+			"test": "『鞋子好看｜日本自...",
+			"num":"11万",
+			"auther":"明石飞行社"
+		},{
+			"img": "url(img/picture/pic20.jpg)  ",			
+			"test": "霍金去世这是他...",
+			"num":"134万",
+			"auther":"果酱音乐"
+		},{
+			"img": "url(img/picture/pic21.jpg)  ",			
+			"test": "求求你们让我睡...",
+			"num":"289万",
+			"auther":"sust网易云音乐..."
+		},{
+			"img": "url(img/picture/pic22.jpg)  ",			
+			"test": "电影经典台词对白...",
+			"num":"121万",
+			"auther":"巧克力"
+		},{
+			"img": "url(img/picture/pic23.jpg)  ",			
+			"test": "孤独与愁...",
+			"num":"19万",
+			"auther":"窝成团"
+		},{
+			"img": "url(img/picture/pic24.jpg)  ",			
+			"test": "『绝美鼓乐集｜華枝...",
+			"num":"34万",
+			"auther":"魔理沙的扫帚视角"
+		},{
+			"img": "url(img/picture/pic25.jpg)  ",			
+			"test": "『white day｜想要传...",
+			"num":"55万",
+			"auther":"楠元由一"
+		},{
+			"img": "url(img/picture/pic26.jpg)  ",			
+			"test": "『新世纪｜如沐朝阳...",
+			"num":"116万",
+			"auther":"xept"
+		},{
+			"img": "url(img/picture/pic27.jpg)  ",			
+			"test": "『绝美鼓乐集｜華枝...",
+			"num":"34万",
+			"auther":"魔理沙的扫帚视角"
+		},{
+			"img": "url(img/picture/pic28.jpg)  ",			
+			"test": "阴天...",
+			"num":"266万",
+			"auther":"云音乐歌单之友"
+		},{
+			"img": "url(img/picture/pic29.jpg)  ",			
+			"test": "『绝美鼓乐集｜華枝...",
+			"num":"34万",
+			"auther":"魔理沙的扫帚视角"
+		},{
+			"img": "url(img/picture/pic30.jpg)  ",			
+			"test": "这里的表演...",
+			"num":"99万",
+			"auther":"云音乐歌单之友"
+		},{
+			"img": "url(img/picture/pic31.jpg)  ",			
+			"test": "百部韩剧...",
+			"num":"34万",
+			"auther":"名侦探"
+		},{
+			"img": "url(img/picture/pic32.jpg)  ",			
+			"test": "这就是街舞...",
+			"num":"17万",
+			"auther":"舞部尚书"
+		},{
+			"img": "url(img/picture/pic33.jpg)  ",			
+			"test": "国际音乐节...",
+			"num":"52011",
+			"auther":"宋城阿边"
+		},{
+			"img": "url(img/picture/pic34.jpg)  ",			
+			"test": "『甜美声线｜清新俏...",
+			"num":"187万",
+			"auther":"小鹿"
+		},{
+			"img": "url(img/picture/pic35.jpg)  ",			
+			"test": "起床困难症...",
+			"num":"28万",
+			"auther":"魔理沙的扫帚视角"
+		},{
+			"img": "url(img/picture/pic36.jpg)  ",			
+			"test": "角色背后的声音...",
+			"num":"11万",
+			"auther":"魔理沙的扫帚视角"
+		}
+		
+		
+	
+	],
+	"Music":[
+		{"id":1,
+			"song_name":"out of sight",
+			"singer":"James Brown",
+			"pic":"img/login/1.jpg"
+		},
+		{"id":2,
+			"song_name":"理想",
+			"singer":"赵雷",
+			"pic":"img/login/2.jpg"
+		},
+		{"id":3,
+			"song_name":"情人",
+			"singer":"谢安琪",
+			"pic":"img/login/3.jpg"
+		},{"id":4,
+			"song_name":"赶路",
+			"singer":"陈晓娟",
+			"pic":"img/login/ganlu.jpg"
+			
+		},{"id":5,
+			"song_name":"重逢",
+			"singer":"关淑仪",
+			"pic":"img/login/3.jpg"
+		},{"id":6,
+			"song_name":"song3",
+			"singer":"遗憾",
+			"pic":"img/login/3.jpg"
+		}
+	]
+	   
+}
