@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0px;
+				padding: 0px;
+				list-style: none;
+			}
+			
+			.main {
+				width: 400px;
+				height: 200px;
+				margin: 0px auto;
+				position: relative;
+				overflow: hidden;
+				/*background: red;*/
+			}
+			
+			.bg {
+				/*width: 2000px;*/
+				height: 200px;
+				position: relative;
+			}
+			
+			.bg li {
+				float: left;
+				width: 400px;
+				height: 200px;
+				box-sizing: border-box;
+			}
+			.circle{
+				width: 100px;
+				height: 10px;
+				position: absolute;
+				bottom: 0px;
+				left: calc(50% - 50px);
+			}
+			.circle li{
+				margin-left: 10px;
+				float: left;
+				width: 8px;
+				height: 8px;
+				border-radius: 50%;
+				border: 1px solid darkred;
+			}
+			
+			.active{
+				background-color: darkred;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="main">
+			<ul class="bg">
+				<li style="background: pink;"></li>
+				<li style="background: lightcyan;"></li>
+				<li style="background: lightgoldenrodyellow;"></li>
+				<li style="background: lightsalmon;"></li>
+				<li style="background: lightsteelblue;"></li>
+				
+			</ul>
+			<ul class="circle">
+				
+			</ul>
+		</div>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="bootstrap-3.3.7-dist/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script type="text/javascript">
+			(function($) {
+				$(function() {
+					let sum = 0;
+					let inset = null;
+					let width = $(".bg li").width();
+
+					for (var i = 0; i < $(".bg li").length; i++) {
+						$(".circle").append(`<li></li>`)
+					}
+					$(".circle li").first().addClass("active")
+					
+					let first = $(".bg li").first().clone();
+					
+					$(".bg").append(first).width($(".bg li").length * width);
+					
+					
+					inset=setInterval(next,2000)
+					
+					$(".circle li").hover(function(){
+						clearInterval(inset);
+						sum=$(this).index();
+						
+						$(".bg").stop().animate({
+							left:-sum*width
+						},600)
+						$(".circle li").eq(sum).addClass("active").siblings().removeClass("active")
+					},function(){
+						inset=setInterval(next,2000)
+					})
+					
+					
+					
+					
+					function next(){
+						
+						sum++;
+						if(sum==$(".bg li").length){
+							sum=1;
+							$(".bg").css("left","0px")
+						}
+						
+						$(".bg").stop().animate({
+							left:-sum*width
+						},600)
+						if(sum==$(".bg li").length-1){
+							$(".circle li").eq(0).addClass("active").siblings().removeClass("active")
+						}else{
+							$(".circle li").eq(sum).addClass("active").siblings().removeClass("active")
+						}
+						
+					}
+					
+				})
+			})(jQuery)
+		</script>
+	</body>
+
+</html>

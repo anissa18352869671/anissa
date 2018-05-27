@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<style type="text/css">
+		* {
+			margin: 0px;
+			padding: 0px;
+		}
+
+		#loading {
+			display: none;
+			width: 100px;
+			height: 100px;
+			position: relative;
+			top: calc(50% - 50px);
+			left: calc(50% - 50px);
+			background: url(img/timg.gif)no-repeat;
+			background-size: 100%;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="loading">
+
+	</div>
+	<button id="btn" style="height: 30px;">获取数据</button>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$("#btn").click(function () {
+			load()
+		})
+
+		 function load() {
+			$.myajax({
+				url: "index.json",
+				success: function (data) {
+
+					data.userList.forEach(item => {
+						$("#btn").before(`<div>${item}</div>`)
+					})
+				}
+			})
+			
+			
+		}
+			
+			
+			
+			 var timer;
+			 //console.log($("#btn").offset().top)
+			 //console.log($("#btn").outerHeight)
+			 
+ 			$(document).scroll(function(){
+			
+   				if($("#btn").offset().top-$(window).scrollTop()-$(window).height()<20){
+   					load()
+   					//console.log(1)
+   				}
+   			})
+
+	</script>
+</body>
+
+</html>
