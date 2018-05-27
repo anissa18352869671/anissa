@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>网易云</title>
+		<style type="text/css">
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			.indexes {
+				width: 20px;
+				position: fixed;
+				right: 5px;
+				height: 120px;
+				top: calc(50% - 60px);
+			}
+			
+			.indexes li {
+				width: 10px;
+				height: 10px;
+				list-style: none;
+				background: white;
+				border-radius: 50%;
+				margin: 10px 0px;
+			}
+			
+			.indexes li.active {
+				background: olivedrab;
+			}
+		</style>
+	</head>
+
+	<body style="overflow: hidden;">
+
+		<div class="container" style="position: relative;transition: 1s;">
+			<div class="item" style="background: red;">
+
+			</div>
+			<div class="item" style="background: pink;">
+
+			</div>
+			<div class="item" style="background: green;">
+
+			</div>
+			<div class="item" style="background: goldenrod;">
+
+			</div>
+			<div class="item" style="background: paleturquoise;">
+
+			</div>
+		</div>
+
+		<ul class="indexes">
+
+		</ul>
+
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script type="text/javascript">
+			$(function() {
+
+				for(var i = 0; i < $(".item").length; i++) {
+					$(".indexes").append(`<li></li>`)
+				}
+
+				$(".indexes li").eq(0).addClass('active');
+
+				$(".indexes li").hover(function() {
+
+					//获取当前元素在父级中是第几个
+					index = $(this).index() + 1
+
+					move()
+
+				})
+
+				var height = $(window).height();
+				$(".item").css("height", height)
+
+				//滚动条
+				$(document).scroll(function() {
+					console.log(1)
+				})
+
+				if(window.onmousewheel === undefined) {
+					//ff
+					window.addEventListener("DOMMouseScroll", function(e) {
+						//console.log(e.detail === 3 ? "向下" : "向上")
+						move(e.detail === 3)
+					}, false);
+				} else {
+					//chorme
+					window.onmousewheel = function(e) {
+						console.log(e.wheelDeltaY)
+						//console.log(e.wheelDeltaY === -120 ? "向下" : "向上")
+						move(e.wheelDeltaY === -150)
+					}
+				}
+
+				var index = 0;
+
+				var end; //上次结束的时间
+
+				function move(isDown) {
+					var start = new Date();
+
+					//一秒之内的忽略掉
+					if((start - end) < 1000) {
+						return;
+					}
+
+					console.log(isDown ? "下" : "上");
+
+					if(isDown) {
+						if(index === $(".item").length - 1) {
+							console.log("动不了");
+							return;
+						}
+						index++;
+					} else {
+						if(index === 0) {
+							console.log("动不了")
+							return;
+						}
+						index--;
+					}
+
+					$(".container").css("transform", `translateY(${-index * height}px)`)
+
+					//设置索引颜色
+					$(".indexes li").eq(index).addClass('active').siblings().removeClass('active');
+
+					end = new Date()
+
+				}
+
+			})
+		</script>
+
+	</body>
+
+</html>

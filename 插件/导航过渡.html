@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div id="gg" style="transition: 1s;height: 0px;width: 100%;background: yellow;position: fixed;left: 0;top: 0;">
+
+		</div>
+
+		<div style="height: 2000px;background: green;">
+
+			<div id="red" style="height: 80px;background: red;">
+
+			</div>
+
+		</div>
+
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+
+				$(document).scroll(function() {
+					if($(document).scrollTop() > 80) {
+						$("#gg").css("height", "80px")
+						$("#red").css("height", "0px")
+					}else{
+						$("#gg").css("height", "0px")
+						$("#red").css("height", "80px")
+					}
+				})
+
+			})
+		</script>
+
+	</body>
+
+</html>
